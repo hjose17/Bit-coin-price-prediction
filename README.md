@@ -18,6 +18,7 @@ The notebook consists of the following key modules:
 1. **Data Collection**:
    - **Price Data**: Historical Bitcoin price data is collected from a reliable financial data source. This data includes open, high, low, close prices, and trading volumes for each time interval.
    - **Twitter Sentiment Data**: Tweets mentioning "Bitcoin" are collected using the Twitter API. These tweets are then processed to analyze sentiment, providing an additional feature (positive, negative, or neutral sentiment) that could impact Bitcoin prices.
+   - **Dataset**: Available in Kaggle https://www.kaggle.com/datasets/kaushiksuresh147/bitcoin-tweets
 
 2. **Data Preprocessing**:
    - **Cleaning and Filtering**: This step involves cleaning the price and sentiment data. Missing values are handled, duplicate records are removed, and unnecessary data points are filtered out.
